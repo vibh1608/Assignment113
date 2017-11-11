@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.assignment113.MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:background="@color/Black"
+        android:text="Android Insert Blob Data in SQLite"
+        android:textColor="@color/White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:id="@+id/name1"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/heading2"
+        android:layout_gravity="center"
+        android:text="Employee Photo"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+</LinearLayout>
